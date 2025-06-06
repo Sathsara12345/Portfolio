@@ -132,7 +132,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-3xl opacity-20"></div>
               
               <img 
-                src="/src/assets/img/Hero.jpeg" 
+                src="/assets/img/Hero.jpeg" 
                 alt="Pavan Sathsara" 
                 className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white/10 shadow-2xl z-10 relative"
               />

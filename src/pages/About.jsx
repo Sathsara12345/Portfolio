@@ -110,7 +110,7 @@ const About = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-3xl opacity-20"></div>
                 <motion.img 
-                  src="/src/assets/img/hi_there___waving_animated_3D_web_developer-removebg-preview.png" 
+                  src="/assets/img/hi_there___waving_animated_3D_web_developer-removebg-preview.png" 
                   alt="Profile" 
                   className="relative z-10 max-w-full"
                   initial={{ scale: 0.9, rotate: -5 }}
@@ -133,7 +133,7 @@ const About = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500/30 to-blue-500/30 rounded-full blur-3xl opacity-20"></div>
                 <motion.img 
-                  src="/src/assets/img/Graduated_from_cardiff_metropolitan_university.png" 
+                  src="/assets/img/Graduated_from_cardiff_metropolitan_university.png" 
                   alt="Education" 
                   className="relative z-10 max-w-full"
                   initial={{ scale: 0.9, rotate: 5 }}
@@ -254,7 +254,7 @@ const About = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-green-500/30 to-blue-500/30 rounded-full blur-3xl opacity-20"></div>
                 <motion.img 
-                  src="/src/assets/img/Working_in_front_of_laptop_3D_animated_boy-removebg-preview.png" 
+                  src="/assets/img/Working_in_front_of_laptop_3D_animated_boy-removebg-preview.png" 
                   alt="Working" 
                   className="relative z-10 max-w-full"
                   initial={{ scale: 0.9 }}

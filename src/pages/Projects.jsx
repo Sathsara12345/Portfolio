@@ -9,7 +9,7 @@ const Projects = () => {
       {
         id: 1,
         title: "Language-Limousine",
-        image: "/assets/img/Language_limousine.jpg",
+        image: `${import.meta.env.BASE_URL}assets/img/Language_limousine.jpg`,
         description: "From Airport to Hostel Student Tranporatation System for a Transportation company which is located in canada",
         tags: ["PHP", "Bootstrap", "MySQL"],
         source: "https://github.com/Thamalpath/language-limousine",
@@ -17,7 +17,7 @@ const Projects = () => {
       {
         id: 2,
         title: "Upload.lk",
-        image: "/assets/img/upload.jpg",
+        image: `${import.meta.env.BASE_URL}assets/img/upload.jpg`,
         description: "A online business analysis platform for a multiple Economic centers which is located in Sri Lanka",
         tags: ["Laravel", "Tailwind CSS", "MySQL"],
         source: "https://github.com/Sathsara12345/Manning",
@@ -25,7 +25,7 @@ const Projects = () => {
     {
       id: 4,
       title: "School Management System",
-      image: "/assets/img/SMS.jpg",
+      image: `${import.meta.env.BASE_URL}assets/img/SMS.jpg`,
       description: "A fully computerized system for school administration with student records, attendance tracking, and grade management.",
       tags: ["MySQL", "Express", "React", "Node.js"],
       source: "https://github.com/Sathsara12345/SMS"

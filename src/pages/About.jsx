@@ -219,7 +219,7 @@ const About = () => {
                 </div>
               
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  With <span className="font-semibold text-white">1 year of industrial experience</span> in software development, I've built expertise in both frontend and backend technologies.
+                  With <span className="font-semibold text-white">3+ years of industrial experience</span> in software development, I've built expertise in both frontend and backend technologies.
                 </p>
               
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-4">

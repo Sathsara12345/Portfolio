@@ -119,6 +119,25 @@ const Hero = () => {
                 </a>
               </div>
             </motion.div>
+
+            {/* Tech stack moved here */}
+            <motion.div 
+              className="mt-8"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.2, duration: 0.8 }}
+            >
+              <div className="px-4 sm:px-6 py-3 bg-white/5 backdrop-blur-lg rounded-xl flex flex-col sm:flex-row gap-4 items-center border border-white/10 max-w-full overflow-x-auto">
+                <span className="text-sm text-gray-400 whitespace-nowrap">Tech Stack:</span>
+                <div className="flex gap-3 flex-wrap justify-center md:justify-start">
+                  {['React', 'Node.js', 'Tailwind', 'MySQL', 'Laravel', 'PostgreSQL'].map((tech, index) => (
+                    <span key={index} className="px-3 py-1 bg-white/10 rounded-md text-sm font-medium whitespace-nowrap">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </motion.div>
           </motion.div>
           
           <motion.div 
@@ -152,24 +171,6 @@ const Hero = () => {
           </motion.div>
         </div>
         
-        {/* Tech stack indicators */}
-        <motion.div 
-          className="absolute bottom-4 sm:bottom-10 left-0 right-0 flex justify-center px-4"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.2, duration: 0.8 }}
-        >
-          <div className="px-4 sm:px-6 py-3 bg-white/5 backdrop-blur-lg rounded-xl flex flex-col sm:flex-row gap-4 items-center border border-white/10 max-w-full overflow-x-auto">
-            <span className="text-sm text-gray-400 whitespace-nowrap">Tech Stack:</span>
-            <div className="flex gap-3 flex-wrap justify-center">
-              {['React', 'Node.js', 'Tailwind', 'MySQL', 'Laravel', 'PostgreSQL'].map((tech, index) => (
-                <span key={index} className="px-3 py-1 bg-white/10 rounded-md text-sm font-medium whitespace-nowrap">
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
-        </motion.div>
       </div>
     </div>
   );

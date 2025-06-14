@@ -65,13 +65,6 @@ const Navbar = () => {
                   Portfolio
                 </Link>
                 <Link 
-                  to="/testimonials" 
-                  className="text-2xl font-medium hover:text-blue-400 transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Testimonials
-                </Link>
-                <Link 
                   to="/contact" 
                   className="text-2xl font-medium hover:text-blue-400 transition-colors"
                   onClick={() => setIsMenuOpen(false)}
